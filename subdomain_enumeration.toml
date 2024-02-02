@@ -1,10 +1,15 @@
-#! /uasr/bin/python3
+#! /usr/bin/python3
 
 import requests
 import sys
 
-sub_list = open("Subdomains.txt").read()
+sub_list = open(".Subdomain.txt").read()
 subdoms = sub_list.splitlines()
+
+# Check if the script has enough command-line arguments
+if len(sys.argv) < 2:
+    print('Usage: "./subdomain_enumeration.toml <domain>"')
+    sys.exit(1)
 
 for sub in subdoms:
     sub_domains = f"http://{sub}.{sys.argv[1]}"
@@ -17,5 +22,4 @@ for sub in subdoms:
 
     else:
         print("Valid domain: ", sub_domains)
-
 
