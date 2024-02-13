@@ -1,0 +1,39 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pentest-toolbox"
+version = "0.1.0"
+authors = [{name = "Your Name", email = "your.email@example.com"}]
+description = "A brief description of your project"
+readme = "README.md"
+license = {file = "LICENSE"}
+requires-python = ">=3.6"
+
+dependencies = [
+  "railroad-diagrams >=3.0.1",
+  "requests >=2.0",
+  "scapy >=2.4",
+  "beautifulsoup4 >=4.9",
+  "paramiko >=2.7",
+  "python-nmap >=0.6",
+  "sqlalchemy >=1.3",
+  "cryptography >=3.0",
+  "pyopenssl >=19.0",
+  "mechanize >=0.4",
+  "impacket >=0.9",
+  "gitpython"
+]
+
+[project.urls]
+homepage = "https://example.com/"
+repository = "https://example.com/repo"
+documentation = "https://example.com/docs"
+
+[packages]
+include = ["myscripts"]
+exclude = ["miwashi_toolbox"]
+
+[project.scripts]
+emails = "myscripts.email_api:main"

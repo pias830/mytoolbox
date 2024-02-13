@@ -1,0 +1,40 @@
+#! /usr/bin/python3
+
+import requests
+import sys
+
+def get_api(country_input):
+    response = requests.get('https://randomuser.me/api')
+    country = response.json()['results'][0]['location']['country']
+    email = response.json()['results'][0]['email']
+
+    if country == country_input:
+        return email
+    else:
+        return None
+
+def save_to_file(country, email, filename):
+    with open(filename, 'a') as file:
+        if file.tell():
+            file.write("\n")
+        file.write(email)
+
+def main():
+    if len(sys.argv) < 2:
+        print('Forgot to enter country?\nUsage: api.toml <Country>')
+        sys.exit(1)
+
+    country_input = sys.argv[1]
+    filename = f"{country_input}_email_list.txt"
+
+    counter = 0
+    while counter < 5:
+        email = get_api(country_input)
+        if email:
+            print(email)
+            save_to_file(country_input, email, filename)
+            counter += 1
+
+if __name__ == "__main__":
+    main()
+
