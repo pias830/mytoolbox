@@ -3,7 +3,7 @@
 import requests
 import sys
 
-sub_list = open(".Subdomain.txt").read()
+sub_list = open(".subdomains.txt").read()
 subdoms = sub_list.splitlines()
 
 # Check if the script has enough command-line arguments
