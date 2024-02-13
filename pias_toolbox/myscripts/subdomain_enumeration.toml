@@ -20,6 +20,9 @@ for sub in subdoms:
     except requests.ConnectionError:
         pass
 
+    except KeyboardInterrupt:
+        print("\nYou interrupted and that's totally fine.")
+
     else:
         print("Valid domain: ", sub_domains)
 
