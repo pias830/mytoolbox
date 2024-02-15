@@ -25,7 +25,7 @@ def save_to_file(email, filename):
 def main():
     """Main function to run the script."""
     if len(sys.argv) < 2:
-        print('Forgot to enter country?\nUsage: ./email_api.toml <Country>')
+        print("Forgot to enter country?\nUsage: emails 'Country'")
         sys.exit(1)
 
     country_input = sys.argv[1]
