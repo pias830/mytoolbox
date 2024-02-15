@@ -1,9 +1,10 @@
-# edu-pentest-toolbox
+# mytoolbox
 
-## Initialize project
+## Get started
 
 ```bash
-git clone https://github.com/miwashi-edu/edu-pentest-toolbox.git
+cd ws
+git clone https://github.com/pias830/mytoolbox.git
 python3 -m venv venv
 source venv/bin/activate
 pip install -r requirements.txt
@@ -13,26 +14,29 @@ deactivate
 ## Develop
 
 ```bash
-source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+source venv/bin/activate    # Linux 
+source venv/bin/activate    # macOS
+venv\Scripts\activate       # Windows
 
-# Develop
+# Develop at your own risk, or pleasure
 
 deactivate
 ```
 
 
-## Install toolbox
+## Installing a toolbox
 
 ```bash
+cd miwashi_toolbox
 pip install .
-
-# Test it
-pentest
+# or
+cd pias_toolbox
+pip install .
 ```
 
 ## Usage
 
-Brute force
+
 
 ```bash
 bruteforce --url http://example.com/login --user username --max-length 4 --chars abc123

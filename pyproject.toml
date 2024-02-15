@@ -3,10 +3,10 @@ requires = ["setuptools", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "pentest-toolbox"
+name = "mytoolbox"
 version = "0.1.0"
-authors = [{name = "Your Name", email = "your.email@example.com"}]
-description = "A brief description of your project"
+authors = [{name = "Elias Stenberg", email = "eliasstenberg95@gmail.com"}]
+description = "A toolbox with scripts for pen-testing purposes"
 readme = "README.md"
 license = {file = "LICENSE"}
 requires-python = ">=3.6"
@@ -40,3 +40,6 @@ catfact = "pentest.catfact:main"
 bruteforce = "pentest.bruteforce:main"
 bfselenium = "pentest.bfselenium:main"
 commits = "pentest.count_commits:main"
+emails = "pentest.email_api:main"
+subdomains = "pentest.subdomain_enumeration:main"
+subpages = "pentest.subpage_enumeration:main"
