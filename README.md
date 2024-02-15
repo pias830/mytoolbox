@@ -5,20 +5,19 @@
 ```bash
 cd ws
 git clone https://github.com/pias830/mytoolbox.git
-python3 -m venv venv    #sets up the virtual environment
-source venv/bin/activate    #activates the virtual environment 
-pip install -r requirements.txt     #installs dependencies (only in the virtual environment)
-deactivate      #deactivates the virtual environment
+python3 -m venv venv        #if you want to work in a virtual environment, this sets it up
+source venv/bin/activate    #activates virtual environment
+pip install -r requirements.txt
+deactivate      #deactivates virtual environment
 ```
 
 ## Develop
 
 ```bash
 source venv/bin/activate    #on Linux and macOS
-
 venv\Scripts\activate       #on Windows
 
-# Develop, at your own risk
+#Develop, at your own risk
 
 deactivate
 ```
@@ -28,7 +27,10 @@ deactivate
 
 ```bash
 cd mytoolbox
+source venv/bin/activate
 pip install .
+#Use desired scripts
+deactivate
 ```
 
 ## Usage
