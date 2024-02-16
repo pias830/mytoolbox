@@ -37,7 +37,7 @@ deactivate
 
 Email scanner
 ```bash
-emails 'Country' #your desired country with a capitalized first letter
+emails 'country' #will create a .txt file to save the email-adresses from desired country
 ```
 
 Subdomain enumeration

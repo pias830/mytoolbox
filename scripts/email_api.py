@@ -25,16 +25,16 @@ def save_to_file(email, filename):
 def main():
     """Main function to run the script."""
     if len(sys.argv) < 2:
-        print("Forgot to enter country?\nUsage: emails 'Country'")
+        print("Forgot to enter country?\nUsage: emails 'country'")
         sys.exit(1)
 
-    country_input = sys.argv[1]
+    country_input = sys.argv[1].capitalize()
     filename = f"{country_input}_email_list.txt"
 
     counter = 0
 
     try:
-        while counter < 5:
+        while counter < 3:
             email = get_api(country_input)
             if email:
                 print(email)
