@@ -18,9 +18,7 @@ Commit counter
 
 
 ## Get started
-Pre dependencies needed:
-python3
-pip
+Pre-dependencies needed: python3, pip
 ```bash
 cd ws
 git clone https://github.com/pias830/mytoolbox.git
