@@ -9,4 +9,4 @@ pyopenssl
 mechanize
 impacket
 gitpython
-
+selenium
