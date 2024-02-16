@@ -37,7 +37,7 @@ deactivate
 
 Email scanner
 ```bash
-emails <Country> #your desired country with a capitalized first letter
+emails 'Country' #your desired country with a capitalized first letter
 ```
 
 Subdomain enumeration
