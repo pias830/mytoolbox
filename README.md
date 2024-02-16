@@ -1,5 +1,21 @@
 # mytoolbox
 
+A simple toolbox for educational purposes, containing:
+
+*** Email-adress scanner
+
+*** Subdomain scanner
+
+*** Subpage scanner
+
+*** Catfact (wow!)
+
+*** Brute force tool
+
+*** Selenium brute force tool
+
+*** Commit counter
+
 ## Get started
 
 ```bash
@@ -64,4 +80,9 @@ bruteforce --url http://localhost:3000/auth/login --user user@example.com --max-
 Brute force Selenium
 ```bash
 bfselenium --url http://localhost:3000 --user user@example.com --max-length 8 --chars adoprsw
+```
+
+Commit counter
+```bash
+commits
 ```
