@@ -51,38 +51,38 @@ deactivate
 
 ## Usage
 
-### Email scanner
+#### Email scanner
 ```bash
 emails 'country' #will create a .txt file to save the email-adresses from desired country
 ```
 
-### Subdomain enumeration
+#### Subdomain enumeration
 ```bash
 subdomain 'domain'
 ```
 
-### Subpage enumeration
+#### Subpage enumeration
 ```bash
 subpage 'domain'
 ```
 
-### Cat fact
+#### Cat fact
 ```bash
 catfact
 ```
 
-### Brute force
+#### Brute force
 ```bash
 bruteforce --url http://example.com/login --user username --max-length 4 --chars abc123
 bruteforce --url http://localhost:3000/auth/login --user user@example.com --max-length 8 --chars adoprsw
 ```
 
-### Brute force Selenium
+#### Brute force Selenium
 ```bash
 bfselenium --url http://localhost:3000 --user user@example.com --max-length 8 --chars adoprsw
 ```
 
-### Commit counter
+#### Commit counter
 ```bash
 commits
 ```
