@@ -2,17 +2,25 @@
 
 A simple toolbox for educational purposes, containing the following tools:
 
-#### Email-adress scanner
-#### Subdomain scanner
-#### Subpage scanner
-#### Catfact (wow!)
-#### Brute force tool
-#### Selenium brute force tool
-#### Commit counter
+Email-adress scanner
+
+Subdomain scanner
+
+Subpage scanner
+
+Catfact (wow!)
+
+Brute force tool
+
+Selenium brute force tool
+
+Commit counter
 
 
 ## Get started
-
+Pre dependencies needed:
+python3
+pip
 ```bash
 cd ws
 git clone https://github.com/pias830/mytoolbox.git
