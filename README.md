@@ -2,19 +2,19 @@
 
 A simple toolbox for educational purposes, containing the following tools:
 
-### Email-adress scanner
+#### Email-adress scanner
 
-### Subdomain scanner
+#### Subdomain scanner
 
-### Subpage scanner
+#### Subpage scanner
 
-### Catfact (wow!)
+#### Catfact (wow!)
 
-### Brute force tool
+#### Brute force tool
 
-### Selenium brute force tool
+#### Selenium brute force tool
 
-### Commit counter
+#### Commit counter
 
 ## Get started
 
