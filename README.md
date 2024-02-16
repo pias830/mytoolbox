@@ -3,18 +3,13 @@
 A simple toolbox for educational purposes, containing the following tools:
 
 #### Email-adress scanner
-
 #### Subdomain scanner
-
 #### Subpage scanner
-
 #### Catfact (wow!)
-
 #### Brute force tool
-
 #### Selenium brute force tool
-
 #### Commit counter
+
 
 ## Get started
 
@@ -48,6 +43,7 @@ pip install .
 #Use desired scripts
 deactivate
 ```
+
 
 ## Usage
 
